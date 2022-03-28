@@ -4,7 +4,6 @@ $secondary-color: #fff;
 $third-color: #dcb200;
 $four_color: #4b4b4b;
 
-
 body {
     overflow-x: hidden;
 }
@@ -134,9 +133,9 @@ header {
     background-color: $primary-color;
     padding: 24px 0;
     .navbar-brand {
-        font-size: 15px;
+        font-size: 19px;
         font-weight: bold;
-        margin-right: 60px;
+        margin-right: 20px;
         color: $secondary-color;
     }
     .navbar-collapse {
@@ -147,6 +146,7 @@ header {
                     margin-left: 20px;
                     color: #fff;
                     letter-spacing: 1px;
+                    font-weight: bold;
                 }
                 .active {
                     color: $third-color;
@@ -158,8 +158,9 @@ header {
     .enroll-now {
         background-color: $third-color;
         color: $secondary-color;
-        padding: 4px 15px;
-        font-size: 14px;
+        padding: 6px 25px;
+        font-size: 15px;
+        font-weight: bold;
     }
 }
 
@@ -237,19 +238,17 @@ header {
     transition: all 0.5s ease-in-out;
 }
 
-
-
-.hero_section{
+.hero_section {
     padding: 50px 0;
-    img{
+    img {
         border-radius: 10px;
         width: 80%;
         height: 400px;
     }
-    .data{
+    .data {
         padding-top: 30px;
-        h1{
-            span{
+        h1 {
+            span {
                 background-color: #4e79cf;
                 padding-right: 0px;
                 color: $secondary-color;
@@ -257,259 +256,252 @@ header {
             }
             padding-bottom: 20px;
         }
-        .About_p1{
+        .About_p1 {
             color: $four_color;
         }
-        .About_p2{
+        .About_p2 {
             color: $four_color;
         }
     }
 }
 
-
-.sustainable_development{
+.sustainable_development {
     background-image: url(../images/image_about/background.webp);
-    height:600px ;
+    height: 600px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
-.Quality_standards{
+.Quality_standards {
     padding: 50px 0;
-    h1{
+    h1 {
         padding: 50px 0;
         font-weight: bold;
         color: $third-color;
     }
-    .Quality_data{
-        .div1{
+    .Quality_data {
+        .div1 {
             text-align: left;
-            h2{
+            h2 {
                 padding-top: 0;
                 padding-bottom: 0;
             }
         }
-           img{
-               width: 150px;
-               height: 150px;
-               
-               border-radius: 10%;
-            }
-            h2{
-                padding: 20px 0;
-                color: #4e79cf;
-            }
-           p{
+        img {
+            width: 150px;
+            height: 150px;
+
+            border-radius: 10%;
+        }
+        h2 {
+            padding: 20px 0;
+            color: #4e79cf;
+        }
+        p {
             color: $four_color;
-       } 
+        }
     }
 }
 // EX-Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) { 
-    .Quality_standards{
+@media (max-width: 576px) {
+    .Quality_standards {
         text-align: center;
         padding: 50px 0;
-        h1{
+        h1 {
             padding: 50px 0;
         }
-        .Quality_data{
-            .div1{
+        .Quality_data {
+            .div1 {
                 text-align: center;
-                h2{
+                h2 {
                     padding-top: 20px;
                     padding-bottom: 20px;
                 }
             }
-               img{
-                   width: 150px;
-                   height: 150px;
-                   
-                   border-radius: 10%;
-                }
-                h2{
-                    padding: 20px 0;
-                }
-               p{
+            img {
+                width: 150px;
+                height: 150px;
+
+                border-radius: 10%;
+            }
+            h2 {
+                padding: 20px 0;
+            }
+            p {
                 color: $four_color;
-           } 
+            }
         }
     }
- }
+}
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-    .Quality_standards{
+@media (min-width: 576px) {
+    .Quality_standards {
         text-align: center;
 
         padding: 50px 0;
-        h1{
+        h1 {
             padding: 50px 0;
         }
-        .Quality_data{
-            .div1{
+        .Quality_data {
+            .div1 {
                 text-align: center;
-                h2{
+                h2 {
                     padding-top: 20px;
                     padding-bottom: 20px;
                 }
             }
-               img{
-                   width: 150px;
-                   height: 150px;
-                   
-                   border-radius: 10%;
-                }
-                h2{
-                    padding: 20px 0;
-                }
-               p{
+            img {
+                width: 150px;
+                height: 150px;
+
+                border-radius: 10%;
+            }
+            h2 {
+                padding: 20px 0;
+            }
+            p {
                 color: $four_color;
-           } 
+            }
         }
     }
- }
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    .Quality_standards{
+@media (min-width: 768px) {
+    .Quality_standards {
         text-align: left;
         padding: 50px 0;
-        h1{
+        h1 {
             padding: 50px 0;
         }
-        .Quality_data{
+        .Quality_data {
             text-align: left;
-            .div1{
+            .div1 {
                 text-align: left;
                 padding-left: 20px;
-                h2{
-                    
+                h2 {
                     padding-top: 0;
                     padding-bottom: 0;
                 }
             }
-               img{
-                   text-align: left;
-                   width: 150px;
-                   height: 150px;
-                   
-                   border-radius: 10%;
-                }
-                h2{
-                    padding: 20px 0;
-                    text-align: left;
-                }
-               p{
+            img {
+                text-align: left;
+                width: 150px;
+                height: 150px;
+
+                border-radius: 10%;
+            }
+            h2 {
+                padding: 20px 0;
+                text-align: left;
+            }
+            p {
                 color: $four_color;
                 text-align: left;
-           } 
+            }
         }
     }
- }
+}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-    .Quality_standards{
+@media (min-width: 992px) {
+    .Quality_standards {
         text-align: center;
         padding: 50px 0;
-        h1{
+        h1 {
             padding: 50px 0;
         }
-        .Quality_data{
-            .div1{
+        .Quality_data {
+            .div1 {
                 text-align: center;
                 padding-left: 20px;
-                h2{
-                    
+                h2 {
                     padding-top: 20px;
                     padding-bottom: 20px;
                 }
             }
-               img{
-                   width: 150px;
-                   height: 150px;
-                   
-                   border-radius: 10%;
-                }
-                h2{
-                    text-align: center;
+            img {
+                width: 150px;
+                height: 150px;
 
-                    padding: 20px 0;
-                }
-               p{
-                color: $four_color;
+                border-radius: 10%;
+            }
+            h2 {
                 text-align: center;
 
-           } 
+                padding: 20px 0;
+            }
+            p {
+                color: $four_color;
+                text-align: center;
+            }
         }
     }
- }
+}
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    .Quality_standards{
+@media (min-width: 1200px) {
+    .Quality_standards {
         text-align: center;
         padding: 0px 0px 50px;
-        h1{
+        h1 {
             padding: 50px 0;
         }
-        .Quality_data{
-            .div1{
+        .Quality_data {
+            .div1 {
                 text-align: center;
                 padding-left: 0px;
-                h2{
+                h2 {
                     padding-top: 20px;
                     padding-bottom: 20px;
                 }
             }
-               img{
-                   width: 150px;
-                   height: 150px;
-                   
-                   border-radius: 10%;
-                }
-                h2{
-                    text-align: center;
-                    padding: 20px 0;
-                    font-size: 25px;
-                }
-               p{
-                   text-align: center;
+            img {
+                width: 150px;
+                height: 150px;
+
+                border-radius: 10%;
+            }
+            h2 {
+                text-align: center;
+                padding: 20px 0;
+                font-size: 25px;
+            }
+            p {
+                text-align: center;
                 color: $four_color;
                 font-size: 15px;
-           } 
+            }
         }
     }
- }
+}
 
-
-.manger{
+.manger {
     padding: 30px 0;
-    img{
+    img {
         border-radius: 100%;
         width: 100%;
         height: 350px;
     }
 
-    .item{
+    .item {
         padding: 30px;
-        h1{
+        h1 {
             font-weight: bold;
             color: $primary-color;
             padding-bottom: 10px;
-           
         }
-        h4{
+        h4 {
             color: $third-color;
             padding-bottom: 10px;
             text-transform: capitalize;
         }
-        p{
+        p {
             color: $four_color;
             font-size: 15px;
         }
-        button{
+        button {
             padding: 7px 40px;
             margin: 20px 0;
             background-color: $secondary-color;
@@ -517,44 +509,41 @@ header {
             border-radius: 25px;
             border-color: $primary-color;
             border-style: solid;
-            &:hover{
+            &:hover {
                 background-color: $primary-color;
                 color: $secondary-color;
             }
         }
-  
     }
 }
-
 
 // EX-Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) { 
-    .manger{
+@media (max-width: 576px) {
+    .manger {
         padding: 30px 0;
-        img{
+        img {
             border-radius: 100%;
             width: 90%;
             height: 450px;
         }
-    
-        .item{
+
+        .item {
             padding: 30px;
-            h1{
+            h1 {
                 font-weight: bold;
                 color: $primary-color;
                 padding-bottom: 10px;
-               
             }
-            h4{
+            h4 {
                 color: $third-color;
                 padding-bottom: 10px;
                 text-transform: capitalize;
             }
-            p{
+            p {
                 color: $four_color;
                 font-size: 15px;
             }
-            button{
+            button {
                 padding: 7px 40px;
                 margin: 20px 0;
                 background-color: $secondary-color;
@@ -562,45 +551,42 @@ header {
                 border-radius: 25px;
                 border-color: $primary-color;
                 border-style: solid;
-                &:hover{
+                &:hover {
                     background-color: $primary-color;
                     color: $secondary-color;
                 }
             }
-      
         }
     }
-    
- }
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-    .manger{
+@media (min-width: 576px) {
+    .manger {
         padding: 30px 0;
-        img{
+        img {
             border-radius: 100%;
             width: 90%;
             height: 450px;
         }
-    
-        .item{
+
+        .item {
             padding: 30px;
-            h1{
+            h1 {
                 font-weight: bold;
                 color: $primary-color;
                 padding-bottom: 10px;
-               
             }
-            h4{
+            h4 {
                 color: $third-color;
                 padding-bottom: 10px;
                 text-transform: capitalize;
             }
-            p{
+            p {
                 color: $four_color;
                 font-size: 15px;
             }
-            button{
+            button {
                 padding: 7px 40px;
                 margin: 20px 0;
                 background-color: $secondary-color;
@@ -608,211 +594,193 @@ header {
                 border-radius: 25px;
                 border-color: $primary-color;
                 border-style: solid;
-                &:hover{
+                &:hover {
                     background-color: $primary-color;
                     color: $secondary-color;
                 }
             }
-      
         }
     }
-    
- }
+}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    .manger{
-    padding: 30px 0;
-    img{
-        border-radius: 100%;
-        width: 80%;
-        height: 500px;
-    }
+@media (min-width: 768px) {
+    .manger {
+        padding: 30px 0;
+        img {
+            border-radius: 100%;
+            width: 80%;
+            height: 500px;
+        }
 
-    .item{
-        padding: 30px;
-        h1{
-            font-weight: bold;
-            color: $primary-color;
-            padding-bottom: 10px;
-           
-        }
-        h4{
-            color: $third-color;
-            padding-bottom: 10px;
-            text-transform: capitalize;
-        }
-        p{
-            color: $four_color;
-            font-size: 15px;
-        }
-        button{
-            padding: 7px 40px;
-            margin: 20px 0;
-            background-color: $secondary-color;
-            color: $primary-color;
-            border-radius: 25px;
-            border-color: $primary-color;
-            border-style: solid;
-            &:hover{
-                background-color: $primary-color;
-                color: $secondary-color;
+        .item {
+            padding: 30px;
+            h1 {
+                font-weight: bold;
+                color: $primary-color;
+                padding-bottom: 10px;
+            }
+            h4 {
+                color: $third-color;
+                padding-bottom: 10px;
+                text-transform: capitalize;
+            }
+            p {
+                color: $four_color;
+                font-size: 15px;
+            }
+            button {
+                padding: 7px 40px;
+                margin: 20px 0;
+                background-color: $secondary-color;
+                color: $primary-color;
+                border-radius: 25px;
+                border-color: $primary-color;
+                border-style: solid;
+                &:hover {
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                }
             }
         }
-  
     }
 }
-
- }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-    .manger{
-    padding: 30px 0;
-    img{
-        border-radius: 100%;
-        width: 100%;
-        height: 350px;
-    }
+@media (min-width: 992px) {
+    .manger {
+        padding: 30px 0;
+        img {
+            border-radius: 100%;
+            width: 100%;
+            height: 350px;
+        }
 
-    .item{
-        padding: 30px;
-        h1{
-            font-weight: bold;
-            color: $primary-color;
-            padding-bottom: 10px;
-           
-        }
-        h4{
-            color: $third-color;
-            padding-bottom: 10px;
-            text-transform: capitalize;
-        }
-        p{
-            color: $four_color;
-            font-size: 15px;
-        }
-        button{
-            padding: 7px 40px;
-            margin: 20px 0;
-            background-color: $secondary-color;
-            color: $primary-color;
-            border-radius: 25px;
-            border-color: $primary-color;
-            border-style: solid;
-            &:hover{
-                background-color: $primary-color;
-                color: $secondary-color;
+        .item {
+            padding: 30px;
+            h1 {
+                font-weight: bold;
+                color: $primary-color;
+                padding-bottom: 10px;
+            }
+            h4 {
+                color: $third-color;
+                padding-bottom: 10px;
+                text-transform: capitalize;
+            }
+            p {
+                color: $four_color;
+                font-size: 15px;
+            }
+            button {
+                padding: 7px 40px;
+                margin: 20px 0;
+                background-color: $secondary-color;
+                color: $primary-color;
+                border-radius: 25px;
+                border-color: $primary-color;
+                border-style: solid;
+                &:hover {
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                }
             }
         }
-  
     }
 }
-
- }
 
 // X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { 
-    .manger{
-    padding: 30px 0;
-    img{
-        border-radius: 100%;
-        width: 100%;
-        height: 350px;
-    }
+@media (min-width: 1200px) {
+    .manger {
+        padding: 30px 0;
+        img {
+            border-radius: 100%;
+            width: 100%;
+            height: 350px;
+        }
 
-    .item{
-        padding: 30px;
-        h1{
-            font-weight: bold;
-            color: $primary-color;
-            padding-bottom: 10px;
-           
-        }
-        h4{
-            color: $third-color;
-            padding-bottom: 10px;
-            text-transform: capitalize;
-        }
-        p{
-            color: $four_color;
-            font-size: 15px;
-        }
-        button{
-            padding: 7px 40px;
-            margin: 20px 0;
-            background-color: $secondary-color;
-            color: $primary-color;
-            border-radius: 25px;
-            border-color: $primary-color;
-            border-style: solid;
-            &:hover{
-                background-color: $primary-color;
-                color: $secondary-color;
+        .item {
+            padding: 30px;
+            h1 {
+                font-weight: bold;
+                color: $primary-color;
+                padding-bottom: 10px;
+            }
+            h4 {
+                color: $third-color;
+                padding-bottom: 10px;
+                text-transform: capitalize;
+            }
+            p {
+                color: $four_color;
+                font-size: 15px;
+            }
+            button {
+                padding: 7px 40px;
+                margin: 20px 0;
+                background-color: $secondary-color;
+                color: $primary-color;
+                border-radius: 25px;
+                border-color: $primary-color;
+                border-style: solid;
+                &:hover {
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                }
             }
         }
-  
     }
 }
 
- }
-
-
-
-
-.celebrities{
+.celebrities {
     padding: 0px 0 30px;
-    h1{
+    h1 {
         color: $third-color;
         padding: 50px 0 10px;
         font-weight: bold;
     }
-    span{
+    span {
         margin-bottom: 30px;
         font-size: 17px;
         display: inline-block;
         color: #4e79cf;
     }
-    img{
+    img {
         border-radius: 10px;
         width: 200px;
         height: 200px;
     }
-    h2{
+    h2 {
         color: $primary-color;
         padding: 15px;
         font-size: 20px;
         font-weight: bold;
     }
-    p{
+    p {
         font-size: 15px;
     }
-   .item_two{
-       padding-top: 20px;
-   }
+    .item_two {
+        padding-top: 20px;
+    }
 }
 
-
-
-
-.fqa{
+.fqa {
     padding: 30px 0;
-    h1{
+    h1 {
         color: $third-color;
         padding: 20px 0;
         text-transform: capitalize;
     }
-    .accordion{
-    border: 1px;    
-    border-color: black;
-    border-style: solid;
+    .accordion {
+        border: 1px;
+        border-color: black;
+        border-style: solid;
     }
-    .accordion-item{
+    .accordion-item {
         border-color: black;
         border-style: solid;
     }
 }
-
 
 footer {
     padding: 50px 0;

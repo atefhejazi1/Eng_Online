@@ -6,15 +6,15 @@ $third-color: #dcb200;
 body {
     overflow-x: hidden;
 }
-
 .navbar {
     background-color: $primary-color;
     padding: 24px 0;
     .navbar-brand {
-        font-size: 15px;
+        font-size: 19px;
         font-weight: bold;
-        margin-right: 60px;
+        margin-right: 20px;
         color: $secondary-color;
+        
     }
     .navbar-collapse {
         .navbar-nav {
@@ -24,6 +24,7 @@ body {
                     margin-left: 20px;
                     color: #fff;
                     letter-spacing: 1px;
+                    font-weight: bold;
                 }
                 .active {
                     color: $third-color;
@@ -35,10 +36,12 @@ body {
     .enroll-now {
         background-color: $third-color;
         color: $secondary-color;
-        padding: 4px 15px;
-        font-size: 14px;
+        padding: 6px 25px;
+        font-size: 15px;
+        font-weight: bold;
     }
 }
+
 
 .navbar .nav-item:hover .dropdown-menu {
     background-color: $primary-color;

@@ -134,9 +134,9 @@ header .brands-name img {
 }
 
 .navbar .navbar-brand {
-  font-size: 15px;
+  font-size: 19px;
   font-weight: bold;
-  margin-right: 60px;
+  margin-right: 20px;
   color: #fff;
 }
 
@@ -145,6 +145,7 @@ header .brands-name img {
   margin-left: 20px;
   color: #fff;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .navbar .navbar-collapse .navbar-nav .nav-item .active {
@@ -154,8 +155,9 @@ header .brands-name img {
 .navbar .enroll-now {
   background-color: #dcb200;
   color: #fff;
-  padding: 4px 15px;
-  font-size: 14px;
+  padding: 6px 25px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .navbar .nav-item:hover .dropdown-menu {

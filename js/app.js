@@ -6,6 +6,7 @@ let arrayOfWelcomingChangeable = [
 ];
 
 let welcoming_changeable = document.querySelector(".welcoming-changeable");
+let square_pracit = document.querySelectorAll(".square-pracit");
 
 setInterval(() => {
   let random = Math.floor(Math.random() * 3);

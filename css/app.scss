@@ -72,10 +72,11 @@ header {
         bottom: -70%;
         left: 10%;
         box-shadow: 5px 5px 15px #d3d3d3, -5px -5px 15px #d3d3d3;
-        margin-bottom: 180px;
+        margin-bottom: 250px;
         z-index: 2;
         img {
-            width: 50%;
+            width: 60%;
+            height: 70px;
         }
     }
 }
@@ -134,9 +135,9 @@ header {
     background-color: $primary-color;
     padding: 24px 0;
     .navbar-brand {
-        font-size: 15px;
+        font-size: 19px;
         font-weight: bold;
-        margin-right: 60px;
+        margin-right: 20px;
         color: $secondary-color;
     }
     .navbar-collapse {
@@ -147,6 +148,7 @@ header {
                     margin-left: 20px;
                     color: #fff;
                     letter-spacing: 1px;
+                    font-weight: bold;
                 }
                 .active {
                     color: $third-color;
@@ -158,8 +160,9 @@ header {
     .enroll-now {
         background-color: $third-color;
         color: $secondary-color;
-        padding: 4px 15px;
-        font-size: 14px;
+        padding: 6px 25px;
+        font-size: 15px;
+        font-weight: bold;
     }
 }
 
@@ -700,17 +703,87 @@ header {
     }
 }
 
-.our-participation{
-    background-color: #081C44;
+.statistics {
+    padding: 80px 0;
+    background-color: #081c44;
+    .statistics-item {
+        color: $secondary-color;
+        i {
+            font-size: 80px;
+        }
+        h2{
+            margin-top: 10px;
+        }
+    }
+}
+.reviews {
+    padding: 50px 0;
+    .inner_data {
+        background-color: rgba($color: #c2c2c2, $alpha: 0.3);
+        padding: 0 20px 50px 50px;
+        // border-radius: 50px;
+        margin-bottom: 30px;
+        .data {
+            display: flex;
+            padding: 30px 0 10px;
+            img {
+                width: 60px;
+                height: 60px;
+            }
+            .data_name {
+                padding-left: 12px;
+                h3 {
+                    margin-bottom: 0;
+                }
+                i {
+                    color: #fbc634;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .data_p {
+            padding: 20px 0;
+        }
+        .data_post {
+            display: flex;
+            i {
+                background-color: $primary-color;
+                color: $secondary-color;
+                height: 40px;
+                width: 40px;
+                text-align: center;
+                padding-top: 11px;
+                border-radius: 100%;
+                margin-top: 8px;
+                margin-right: 15px;
+            }
+            .item {
+                P {
+                    margin-bottom: 0;
+                    color: #4d4d4d;
+                    text-transform: capitalize;
+                }
+                a {
+                    margin-bottom: 0;
+                    font-size: 20px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.our-participation {
+    background-color: #081c44;
     padding: 40px 0;
     color: #fff;
-    h2{
+    h2 {
         margin-bottom: 40px;
         font-size: 100px;
     }
-    .carousel{
-        .carousel-inner{
-            .carousel-item{
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
                 img {
                     height: 500px;
                 }
